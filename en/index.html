@@ -17,7 +17,7 @@
 <body>
   <header class="site-header">
     <nav class="navbar container" aria-label="Main navigation">
-      <a class="brand" href="index.html" aria-label="Roberta Vinciguerra homepage">RV<span>✦</span></a>
+      <a class="brand brand-logo" href="index.html" aria-label="Roberta Vinciguerra homepage"><img src="../assets/rv-logo.png" alt="Roberta Vinciguerra logo"></a>
       <div class="nav-links">
         <a class="active" href="index.html">Portfolio</a>
         <a href="cv.html">Resume</a>
@@ -44,11 +44,7 @@
           <span>Ambitious</span><span>Aesthetic</span><span>Curious</span><span>Strategic</span>
         </div>
       </div>
-      <div class="hero-visual hero-signature" aria-label="Ambitious, aesthetic, curious and strategic">
-        <span class="signature-mark">RV</span>
-        <div class="signature-words">
-          <span>Ambitious</span><span>Aesthetic</span><span>Curious</span><span>Strategic</span>
-        </div>
+      <div class="hero-visual hero-signature hero-statement-only" aria-label="Creative thinking meets strategy">
         <p>Creative thinking<br><strong>meets strategy.</strong></p>
       </div>
     </section>
@@ -69,17 +65,15 @@
       </div>
     </section>
 
-    <section class="fun-facts container" id="fun-facts">
-      <div class="fun-facts-photo"><img src="../assets/roberta-portrait-hq.png" alt="Professional portrait of Roberta Vinciguerra"></div>
-      <div class="fun-facts-content">
-        <p class="section-index">02 / Fun facts about me</p>
-        <h2>My journey didn’t begin in front of a <span>dashboard.</span></h2>
-        <p class="fun-facts-lead">While studying, I worked as a Beauty Advisor for a multinational company, learning to observe people, understand their aspirations and turn a product into an experience.</p>
-        <div class="experience-notes">
-          <article><span>DE</span><div><h3>Germany · Desigual</h3><p>A work-study experience that taught me to adapt quickly to different people, cultures and contexts.</p></div></article>
-          <article><span>ES</span><div><h3>Spain · Coca-Cola</h3><p>My first encounter with the international dimension of a brand and with new ways of communicating and working.</p></div></article>
+    <section class="journey-section" id="fun-facts">
+      <div class="container journey-inner">
+        <div class="journey-heading"><p class="section-index">02 / About me</p><h2>From customer relationships to <span>marketing strategy.</span></h2><p>During my studies, I had the opportunity to work for <strong>three leading international companies</strong>, gaining different yet complementary experiences that shaped my approach to marketing: strongly focused on customers, objectives and creativity.</p></div>
+        <div class="experience-grid">
+          <article><div class="company-logo"><img src="../assets/logo-kiko.png" alt="KIKO Milano logo"></div><p class="experience-place">Beauty Advisor</p><h3>KIKO Milano</h3><p>I combined my passion for beauty with sales techniques, working towards objectives and KPIs while developing first-hand knowledge of target behaviours and needs. This experience showed me how essential direct customer observation is when building truly effective communication and offers.</p></article>
+          <article><div class="company-logo"><img src="../assets/logo-desigual.png" alt="Desigual logo"></div><p class="experience-place">Image Consultant &amp; Shop Assistant · Germany</p><h3>Desigual</h3><p>This international experience strengthened my communication skills, customer relations and results orientation. Working in a multicultural setting also improved my language skills and developed my adaptability, independence and sensitivity towards different contexts and audiences.</p></article>
+          <article><div class="company-logo"><img src="../assets/logo-cocacola.png" alt="The Coca-Cola Company logo"></div><p class="experience-place">Marketing Assistant · Seville, Spain</p><h3>The Coca-Cola Company</h3><p>During a work-study project, I helped develop a marketing campaign for the launch of Coca-Cola packaging made from recycled material. It was one of my first hands-on marketing experiences and the moment I discovered how engaging I found the creative process: from defining the <strong>concept</strong> to its visual translation and the creation of the <strong>mockup</strong>.</p></article>
         </div>
-        <p class="fun-facts-close">Different experiences connected by the same thread: curiosity, attention to people and sensitivity to the way a brand is perceived.</p>
+        <div class="journey-thread"><h3>The common thread</h3><p>Three apparently different experiences, connected by skills I bring to my work in marketing today: <strong>customer insight, communication, results orientation, relationship building, adaptability, international awareness and creative thinking.</strong></p><p>My approach to marketing grows precisely from the intersection of <strong>customer understanding, creativity and strategy.</strong></p></div>
       </div>
     </section>
 
@@ -90,53 +84,38 @@
       </div>
 
       <div class="project-grid">
-        <article class="project-card card-alliot">
-          <div class="project-collage collage-alliot" aria-label="Collage of work created for Alliot">
-            <img class="collage-main" src="../assets/alliot-homepage.jpg" alt="Alliot homepage">
-            <img class="collage-detail" src="../assets/alliot-post.png" alt="Digital and AI social content created for Alliot">
-          </div>
+        <a class="project-card card-alliot" href="https://alliot.it/" target="_blank" rel="noreferrer" aria-label="Visit the Alliot website">
+          <div class="project-cover"><img src="../assets/project-alliot.png" alt="Selection of digital projects and content created for Alliot"></div>
           <div class="card-body-custom">
             <p class="project-type">Brand ecosystem · Growth marketing</p><h3>Alliot</h3>
             <p>Digital strategy, content and B2B/B2C funnels: lead generation campaigns, SEO, landing pages, newsletters, CRM and automation.</p>
-            <p class="result">Strategy, creativity and conversion in one ecosystem</p>
+            <div class="metrics" aria-label="Alliot results"><span><strong>+272%</strong> organic sessions</span><span><strong>+77.3%</strong> impressions</span><span><strong>+34.78</strong> website clicks</span><span><strong>+16.8%</strong> followers</span><span><strong>+5%</strong> engagement rate</span></div><p class="metric-source">Source: Google Analytics and Instagram Insights</p><p class="project-link">Visit website <span>↗</span></p>
           </div>
-        </article>
-        <article class="project-card">
-          <div class="project-collage collage-onyx" aria-label="Collage of Onyx Academy Reel covers">
-            <img class="collage-main" src="../assets/onyx-real.png" alt="Onyx Academy Instagram profile">
-            <img class="collage-crop crop-top" src="../assets/onyx-real.png" alt="Detail of Onyx Academy Reel covers">
-            <img class="collage-crop crop-bottom" src="../assets/onyx-real.png" alt="Second detail of Onyx Academy Reel covers">
-          </div>
+        </a>
+        <a class="project-card" href="https://www.instagram.com/onyxacademy/" target="_blank" rel="noreferrer" aria-label="Visit Onyx Academy on Instagram">
+          <div class="project-cover"><img src="../assets/project-onyx.png" alt="Selection of social content and Reels created for Onyx Academy"></div>
           <div class="card-body-custom">
             <p class="project-type">Social strategy · Lead generation</p><h3>Onyx Academy</h3>
             <p>From information channel to acquisition tool: editorial planning, multi-format content and advertising campaigns.</p>
-            <p class="result">+5,3% follower · engagement fino al 3%</p>
+            <p class="result">+5.3% followers · engagement up to 3%</p><p class="project-link">Visit Instagram <span>↗</span></p>
           </div>
-        </article>
-        <article class="project-card card-blue">
-          <div class="project-collage collage-nailfor" aria-label="Collage of the Nailfor website">
-            <img class="collage-main" src="../assets/nailfor-real.png" alt="Nailfor homepage">
-            <img class="collage-crop crop-left" src="../assets/nailfor-real.png" alt="Nailfor navigation detail">
-            <img class="collage-crop crop-right" src="../assets/nailfor-real.png" alt="Nailfor collection detail">
-          </div>
+        </a>
+        <a class="project-card card-blue" href="https://www.nailfor.com/" target="_blank" rel="noreferrer" aria-label="Visit the Nailfor website">
+          <div class="project-cover"><img src="../assets/project-nailfor.png" alt="Nailfor homepage, categories and products"></div>
           <div class="card-body-custom">
             <p class="project-type">SEO · E-commerce</p><h3>Nailfor</h3>
             <p>Keyword research, on-page optimisation and product-page copywriting to improve visibility, CTR and conversion.</p>
-            <p class="result">Content transformed into organic assets</p>
+            <p class="result">Content transformed into organic assets</p><p class="project-link">Visit website <span>↗</span></p>
           </div>
-        </article>
-        <article class="project-card card-belogy">
-          <div class="project-collage collage-belogy" aria-label="Collage of the Belogy website">
-            <img class="collage-main" src="../assets/belogy-real.jpg" alt="Belogy homepage">
-            <img class="collage-crop crop-left" src="../assets/belogy-real.jpg" alt="Belogy logo detail">
-            <img class="collage-crop crop-right" src="../assets/belogy-real.jpg" alt="Belogy visual detail">
-          </div>
+        </a>
+        <a class="project-card card-belogy" href="https://belogy.it/" target="_blank" rel="noreferrer" aria-label="Visit the Belogy website">
+          <div class="project-cover"><img src="../assets/project-belogy.png" alt="Selection of Belogy sales materials, presentations and web pages"></div>
           <div class="card-body-custom">
             <p class="project-type">Business development · Sales funnel</p><h3>Belogy</h3>
             <p>Prospecting, lead qualification and events as conversion drivers to grow the sales network.</p>
-            <p class="result">Marketing and sales within the same funnel</p>
+            <p class="result">Marketing and sales within the same funnel</p><p class="project-link">Visit website <span>↗</span></p>
           </div>
-        </article>
+        </a>
       </div>
     </section>
 
